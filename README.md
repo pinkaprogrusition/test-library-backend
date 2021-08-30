@@ -29,7 +29,7 @@ additionalURL: /person/<personID>
 TYPE: PUT
 BODY: {
     "oldPassword": VARCHAR(255)
-    "newPAssword": VARCHAR(255)
+    "newPassword": VARCHAR(255)
 }
 
 5) Удалить конкретного пользователя
