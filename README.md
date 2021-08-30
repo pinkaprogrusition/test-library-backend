@@ -62,19 +62,19 @@ additionalURL: /book/<bookID>
 TYPE: GET
 BODY: -
 
-5) Удалить конкретную книгу
+4) Удалить конкретную книгу
 additionalURL: /book/<bookID>
 TYPE: DELETE
 BODY: -
 
-6) Отдать книгу конкретному пользователю
+5) Отдать книгу конкретному пользователю
 additionalURL: /book/borrow/<bookID>
 TYPE: PUT
 BODY: {
     "personID": INTEGER
 }
 
-7) Вернуть книгу конкретным пользователем
+6) Вернуть книгу конкретным пользователем
 additionalURL: /book/return/<bookID>
 TYPE: PUT
 BODY: -
